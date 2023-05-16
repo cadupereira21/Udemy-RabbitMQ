@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class RabbitConsumer {
 
-    @RabbitListener(queues = "Mobile")
+    /*@RabbitListener(queues = "Mobile")
     public void getMessage(Person p){
         System.out.println("Person name on mobile queue: " + p.getName());
-    }
+    }*/
 }
